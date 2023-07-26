@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+    background-image:url("bgimg.jpeg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.color{
+   height: 800px;
+   width: 100%;
+   
+   /* background-color: rgb(230, 32, 32,0.4); */
+}
+.text{
+  transform: translateY(250px) translateX(450px);
+  font-size: 50px;
+  text-shadow: 2px 2px red;
+  font-style: italic;
+  /* transform: translateZ(100px); */
+}
